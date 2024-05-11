@@ -176,7 +176,7 @@ description: |-
   ## Rollup configuration.
 
   # The chain id of the new rollup.
-  zkevm_rollup_chain_id: 10101
+  zkevm_rollup_chain_id: 626262
 
   # The fork id of the new rollup. It indicates the prover (zkROM/executor) version.
   zkevm_rollup_fork_id: 9
