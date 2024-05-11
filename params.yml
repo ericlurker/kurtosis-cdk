@@ -173,12 +173,11 @@ args:
   l1_rpc_url: http://el-1-geth-lighthouse:8545
   l1_ws_url: ws://el-1-geth-lighthouse:8546
   # https://github.com/kurtosis-tech/ethereum-package/tree/main?tab=readme-ov-file#configuration
-  l1_additional_services: [
-    # blockscout, # block explorer
-    # dora, # beaconchain explorer
-    # el_forkmon, # fork monitor tool
-  ]
+  l1_additional_services: []
 
+  # blockscout, # block explorer
+  # dora, # beaconchain explorer
+  # el_forkmon, # fork monitor tool
   ## Rollup configuration.
 
   # The chain id of the new rollup.
@@ -195,7 +194,7 @@ args:
 
   # If this is true, we will automatically deploy an ERC20 contract on
   # L1 to be used at the gasTokenAddress
-  zkevm_use_gas_token_contract: false
+  zkevm_use_gas_token_contract: true
 
   ## Permissionless node configuration.
   trusted_sequencer_node_uri: zkevm-node-sequencer-001:6900
@@ -207,12 +206,12 @@ args:
 
   ## Workload configuration.
   workload_commands: [
-    "polycli_loadtest_on_l2.sh t",  # eth transfers
-    "polycli_loadtest_on_l2.sh 2",  # erc20 transfers
-    "polycli_loadtest_on_l2.sh 7",  # erc721 mints
-    "polycli_loadtest_on_l2.sh v3", # uniswapv3 swaps
-    "polycli_rpcfuzz_on_l2.sh",     # rpc calls
-  ]
+      "polycli_loadtest_on_l2.sh t", # eth transfers
+      "polycli_loadtest_on_l2.sh 2", # erc20 transfers
+      "polycli_loadtest_on_l2.sh 7", # erc721 mints
+      "polycli_loadtest_on_l2.sh v3", # uniswapv3 swaps
+      "polycli_rpcfuzz_on_l2.sh", # rpc calls
+    ]
 
   ## ETH Load balancer configuration.
   blutgang_image: makemake1337/blutgang:0.3.5

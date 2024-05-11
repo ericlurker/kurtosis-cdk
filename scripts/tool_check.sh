@@ -81,7 +81,7 @@ check_yq_version() {
         yq_major_version_supported="$(echo "$YQ_VERSION_SUPPORTED" | cut -d '.' -f 1)"
         yq_minor_version_supported="$(echo "$YQ_VERSION_SUPPORTED" | cut -d '.' -f 2)"
 
-        yq_version="$(yq --version | cut -d ' ' -f 2)"
+        yq_version="$(yq --version | cut -d ' ' -f 3)"
         major_yq_version="$(echo "$yq_version" | cut -d '.' -f 1)"
         minor_yq_version="$(echo "$yq_version" | cut -d '.' -f 2)"
         if { [ "$major_yq_version" -eq "$yq_major_version_supported" ] && [ "$minor_yq_version" -ge "$yq_minor_version_supported" ]; }; then
