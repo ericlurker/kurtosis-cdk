@@ -38,7 +38,7 @@ You can also use the package you have just set up to sync data from a production
       "rollupManagerCreationBlockNumber": 18,
       "genesisBlockNumber": 22,
       "L1Config": {
-        "chainId": 271828,
+        "chainId": 11155111,
         "polygonZkEVMGlobalExitRootAddress": "0x1f7ad7caA53e35b4f0D138dC5CBF91aC108a2674",
         "polygonRollupManagerAddress": "0x2F50ef6b8e8Ee4E579B17619A92dE3E2ffbD8AD2",
         "polTokenAddress": "0xEdE9cf798E0fE25D35469493f43E88FeA4a5da0E",

@@ -84,7 +84,7 @@ DEFAULT_ARGS = {
     "zkevm_db_blockscout_stats_name": "blockscout-st_db",
     "zkevm_db_blockscout_stats_user": "blockscout-st_user",
     "zkevm_db_blockscout_stats_password": "M07Q9hBoD5vN40LHIIplBtDpi5DGuMEd",
-    "l1_chain_id": 271828,
+    "l1_chain_id": 11155111,
     "l1_preallocated_mnemonic": "code code code code code code code code code code code quality",
     "l1_funding_amount": "100ether",
     "l1_rpc_url": "http://el-1-geth-lighthouse:8545",
