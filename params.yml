@@ -169,7 +169,7 @@ args:
   ## L1 configuration.
   l1_chain_id: 11155111
   l1_preallocated_mnemonic: code code code code code code code code code code code quality
-  l1_funding_amount: 0.1ether
+  l1_funding_amount: 0.01ether
   #l1_rpc_url: http://el-1-geth-lighthouse:8545
   #l1_ws_url: ws://el-1-geth-lighthouse:8546
   l1_rpc_url: https://sepolia.drpc.org

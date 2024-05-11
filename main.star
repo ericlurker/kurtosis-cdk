@@ -13,7 +13,7 @@ blutgang_package = "./cdk_blutgang.star"
 
 def run(
     plan,
-    deploy_l1=false,
+    deploy_l1=False,
     deploy_zkevm_contracts_on_l1=True,
     deploy_databases=True,
     deploy_cdk_bridge_infra=True,
